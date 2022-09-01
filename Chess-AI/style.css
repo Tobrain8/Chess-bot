@@ -1,0 +1,60 @@
+.HeadingDiv{
+  display: block;
+  text-align: center;
+  background-color: lightgray;
+}
+
+.BoardDiv {
+  width: 350px;
+  margin: 0 auto;
+}
+
+.MainDiv{
+  width: 100%;
+  display: block;
+}
+
+.Tile {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  font-size: 20pt;
+  padding: 0;
+  margin: 0;
+  content-align: center;
+}
+
+.circle{
+  height: 50%;
+  opacity: 0.1;
+  position: absolute;
+  z-index: 3;
+}
+
+.PieceImage{
+  
+  position: absolute;
+  height: 35px;
+  width: 35px;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+  transform: translate(-18px, -18px);
+}
+
+.WhiteSquare{
+  background-color: #ffefe0;
+}
+
+.BlackSquare{
+  background-color: #045076;
+}
+
+#chessBoard{
+  padding: 0;
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+}
+
+
